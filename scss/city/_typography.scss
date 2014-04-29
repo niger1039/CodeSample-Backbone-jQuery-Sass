@@ -1,0 +1,75 @@
+.city {
+	&.active {
+		&.green	.show-text a, 
+        &.green .intro h2 { color: $city_green; }
+		&.blue .show-text a, 
+        &.blue .intro h2  { color: $city_blue; }
+		&.purple .show-text a, 
+        &.purple .intro h2  { color: $city_purple; }
+		&.yellow .show-text a, 
+        &.yellow .intro h2  { color: $city_yellow; }
+	}
+	
+	.content > nav a { color: #fff; }
+}
+
+.intro {
+	font-family: "Helvetica Neue";
+
+	h2 {
+		font-family: "Lubalin Book";
+		font-size: 27px;
+		line-height: 33px;
+		font-weight: normal;
+	}
+	h3 {
+		font-weight: bold;
+		font-size: 12.5px;
+		line-height: 15px;
+	}
+	p {
+		font-size: 13px;
+		font-weight: 200;
+		line-height: 15px;
+	}
+	button {
+		color: $light_color;
+		font-size: 17px;
+		text-align: center;
+		line-height: 39px;
+		font-weight: 500;
+	}
+}
+
+.steps li {
+	&.active .next { color: $light_color }
+	.next {
+		font-family: "Helvetica Neue";
+		font-weight: bold;
+		font-size: 12px;
+		color: transparent;
+		text-align:center;
+	}
+
+	article {
+		font-size: 14px;
+		line-height: 18px;
+		font-family: "Helvetica Neue";
+		font-weight: 200;
+		&, a { color: transparent; }
+		&.show-text { color: $light_color; }
+		
+		button {
+			color: #fff;
+		}
+	}
+
+	&.benefits  {
+		li {
+            font-size: 14px;
+		}
+		button {
+			line-height: 31px;
+		}
+	}
+}

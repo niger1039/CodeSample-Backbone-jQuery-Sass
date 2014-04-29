@@ -1,0 +1,9 @@
+<ul>
+    <% _.each(collection.models, function(step, index) { %>
+        <% if (index < collection.models.length-1) { %>
+            <li><a href="javascript:void(0);"><%=index+1%></a></li>
+        <% } else { %>
+            <li class="benefits"><a href="javascript:void(0);">BENEFITS</a></li>
+        <% } %>
+    <% }) %>
+</ul>

@@ -1,0 +1,32 @@
+<nav>
+    <ul>
+        <li class="prev">
+            <a href="javascript:void(0);">
+                PREVIOUS
+                <span class="sprite footer_prev"></span>
+            </a>
+        </li>
+        <li data-color="map" data-class="map_map" class="icon active">
+            <a href="javascript:void(0);">
+                <span class="text">OVERVIEW</span>
+                <span class="sprite map_map"></span>
+            </a>
+        </li>
+        <% _.each(collection.models, function(city){ %>
+            <li data-color="<%=city.get('color')%>" 
+                data-class="map_<%=city.get('color')%>"
+                class="icon">
+                <a href="javascript:void(0);">
+                    <span class="text"><%=city.get('title')%></span>
+                    <span class="sprite map_<%=city.get('color')%>"></span>
+                </a>
+            </li>
+        <% }); %>
+        <li class="next">
+            <a href="javascript:void(0);">
+                NEXT
+                <span class="sprite footer_next"></span>
+            </a>
+        </li>
+    </ul>
+</nav>

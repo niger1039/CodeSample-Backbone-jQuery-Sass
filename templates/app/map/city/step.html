@@ -1,0 +1,19 @@
+<% if (step.get('isBenefit')) { %>
+    <a href="javascript:void(0);" class='x'>
+        <span class='arrow sprite <%=city.get('color')%>_benefits_x'></span>
+    </a>
+    <article>
+        <%=step.get('text')%>
+        <button class="explore-more">EXPLORE MORE</button>
+        <button class="contact">CONTACT</button>
+    </article>
+<% } else { %>
+    <a href="javascript:void(0);" class="next">
+        NEXT
+        <span class="sprite <%=city.get('color')%>_dot<%=step.get('index')%>"></span>
+    </a>
+    <article><%=step.get('text')%></article>
+    <% if (arrow) { %>
+        <span class='arrow sprite <%=city.get('color')%>_arrow<%=arrow%>'></span>
+    <% } %>
+<% } %>

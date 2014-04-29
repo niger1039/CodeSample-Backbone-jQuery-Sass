@@ -1,0 +1,36 @@
+#home {
+	@include absolute-box-fs-z(1);
+	img {
+		@include absolute-box (auto, auto);
+		top: 50px;
+		left: 40px;
+	}
+	h1 {
+		@include absolute-box (270px, 0);
+		top: 86px;
+		left: 40px;
+	}
+	.content {
+		@include absolute-box (640px, auto);
+		top: 140px;
+		left: 350px;
+		
+		h3 {
+			margin: 12px 0 0;
+		}
+		
+		p {
+			margin: 14px 0;
+		}
+		
+		button {
+			position: absolute;
+			top: 300px;
+			left: -277px;
+			width: 213px;
+			padding-top: 10px;
+			padding-bottom: 2px;
+			margin-top: 10px
+		}
+	}
+}

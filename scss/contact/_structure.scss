@@ -1,0 +1,49 @@
+#contact {
+	@include absolute-box-fs-z($z_contact);
+	&.hidden {
+        z-index: $z_contact_inactive;
+    }
+	img {
+		@include absolute-box (auto, auto);
+		top: 50px;
+		left: 40px;
+	}
+	h1 {
+		@include absolute-box (270px, 0);
+		top: 86px;
+		left: 40px;
+	}
+	.content {
+		@include absolute-box (368px, auto);
+		top: 260px;
+		left: 350px;
+		
+		ul { margin: 20px 0 20px 80px; }
+		li {
+			display: block;
+			&:first-child a { border-bottom: 0; }
+			a {
+				display: block;
+				height: 27px;
+				border: solid #000;
+				border-width: 2px 0;
+				padding: 27px 0;
+			}
+			.icon {
+				background: no-repeat url('../img/contact/dot.png');
+				height: 18px;
+				width: 18px;
+				float: left;
+				margin-left: -80px;
+				margin-top: -24px;
+				padding: 27px;
+			}
+		}
+		button {
+			float: right;
+			width: 140px;
+			padding-top: 4px;
+			margin-top: 10px
+		}
+	}
+}

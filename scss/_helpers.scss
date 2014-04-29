@@ -1,0 +1,56 @@
+@mixin rounded($radius: 0.5em) {
+	-webkit-border-radius: $radius;
+	-moz-border-radius: $radius;
+	border-radius: $radius;
+}
+
+@mixin absolute-box ($width, $height) {
+	position: absolute;
+	display: block;
+	width: $width;
+	height: $height;
+}
+ 
+//absolute-box full screen
+@mixin absolute-box-fs-z ($z-index){
+	@include absolute-box ($app_width, $app_height);
+	top: 0;
+	left: 0;
+	z-index: $z-index;
+}
+@mixin absolute-box-fs {
+	@include absolute-box-fs-z (auto);
+}
+
+//steps article position
+@mixin step-article-pos($y, $x)
+{
+    &.active article {
+        @if $y == top
+        {
+            margin-top:36px;
+        }
+        @else
+        {
+            margin-top: (247px - 36) * -1;
+        }
+
+        @if $x == left
+        {
+            margin-left:36px;
+        }
+        @else
+        {
+            margin-left:(335px - 18)* -1;
+        }
+    }
+}
+
+//step arrow 
+@mixin step-arrow($left, $top)
+{
+    .arrow {
+        left: $left;
+        top: $top;
+    }
+}

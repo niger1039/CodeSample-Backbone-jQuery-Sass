@@ -1,0 +1,38 @@
+#home {
+	h1 {
+		font-size: 30px;
+		font-family: "Lubalin Book";
+		color: $light_color;
+		line-height: 37px;
+		font-weight: 200;
+	}
+	.content {
+		h3 {
+			font-family: "Lubalin";
+			font-size: 68px;
+			line-height: normal;
+			color: $light_color;
+			font-weight: 200;
+		}
+		
+		p {
+			font-family: "Helvetica Neue";
+			color: $light_color;
+			font-size: 15px;
+			line-height: 21px;
+			
+			span {
+				color: #7ACDED;
+				font-weight: bold;
+			}
+		}
+		
+		button {
+			font-family: "Helvetica Neue";
+			font-weight: 600/*bold*/;
+			font-size: 21px;
+			color: $light_color;
+			line-height: 33px;
+		}
+	}
+}

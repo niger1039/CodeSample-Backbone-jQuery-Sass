@@ -1,0 +1,129 @@
+/* ----------------------------------------------------
+   created with http://www.codeandweb.com/texturepacker 
+   ----------------------------------------------------
+   $TexturePacker:SmartUpdate:5c56bf3b055d9f9b3ccbfedce60cd7f9:e2ece4db279667208cfb5443c923949d:1e9ea531edb030fd06c741d8d5dec72b$
+   ----------------------------------------------------
+
+   usage: <span class="{-spritename-} sprite"></span>
+
+   replace {-spritename-} with the sprite you like to use
+
+*/
+
+.sprite {display:inline-block; overflow:hidden; background-repeat: no-repeat;background-image:url(sprite.png);}
+
+.blue_arrow1 {width:150px; height:96px; background-position: -299px -736px}
+.blue_arrow2 {width:100px; height:64px; background-position: -104px -530px}
+.blue_arrow3 {width:100px; height:64px; background-position: -2px -530px}
+.blue_arrow4 {width:150px; height:96px; background-position: -2px -834px}
+.blue_arrow5 {width:150px; height:96px; background-position: -154px -834px}
+.blue_benefits_x {width:72px; height:72px; background-position: -150px -456px}
+.blue_blue {width:79px; height:52px; background-position: -407px -52px}
+.blue_dot1 {width:72px; height:72px; background-position: -372px -456px}
+.blue_dot2 {width:72px; height:72px; background-position: -2px -456px}
+.blue_dot3 {width:72px; height:72px; background-position: -372px -382px}
+.blue_dot4 {width:72px; height:72px; background-position: -224px -382px}
+.blue_dot5 {width:72px; height:72px; background-position: -298px -382px}
+.blue_dot6 {width:72px; height:72px; background-position: -150px -382px}
+.blue_green {width:79px; height:48px; background-position: -2px -2px}
+.blue_green:hover {width:79px; height:48px; background-position: -245px -2px}
+.blue_green_hover {width:79px; height:48px; background-position: -245px -2px}
+.blue_map {width:82px; height:51px; background-position: -167px -106px}
+.blue_map:hover {width:82px; height:51px; background-position: -83px -106px}
+.blue_map_hover {width:82px; height:51px; background-position: -83px -106px}
+.blue_overlay {width:141px; height:141px; background-position: -2px -977px}
+.blue_purple {width:79px; height:53px; background-position: -2px -160px}
+.blue_purple:hover {width:79px; height:53px; background-position: -164px -160px}
+.blue_purple_hover {width:79px; height:53px; background-position: -164px -160px}
+.blue_yellow {width:79px; height:48px; background-position: -407px -2px}
+.blue_yellow:hover {width:79px; height:48px; background-position: -164px -2px}
+.blue_yellow_hover {width:79px; height:48px; background-position: -164px -2px}
+.footer_next {width:92px; height:122px; background-position: -353px -612px}
+.footer_prev {width:92px; height:122px; background-position: -259px -612px}
+.green_arrow1 {width:200px; height:128px; background-position: -204px -1120px}
+.green_arrow2 {width:128px; height:82px; background-position: -129px -612px}
+.green_arrow3 {width:143px; height:92px; background-position: -2px -736px}
+.green_arrow4 {width:200px; height:128px; background-position: -2px -1120px}
+.green_benefits_x {width:72px; height:72px; background-position: -2px -382px}
+.green_blue {width:79px; height:52px; background-position: -2px -106px}
+.green_blue:hover {width:79px; height:52px; background-position: -407px -52px}
+.green_blue_hover {width:79px; height:52px; background-position: -407px -52px}
+.green_dot1 {width:72px; height:72px; background-position: -76px -382px}
+.green_dot2 {width:72px; height:72px; background-position: -298px -456px}
+.green_dot3 {width:72px; height:72px; background-position: -224px -456px}
+.green_dot4 {width:72px; height:72px; background-position: -372px -308px}
+.green_dot5 {width:72px; height:72px; background-position: -76px -456px}
+.green_green {width:79px; height:48px; background-position: -245px -2px}
+.green_map {width:82px; height:51px; background-position: -419px -106px}
+.green_map:hover {width:82px; height:51px; background-position: -83px -106px}
+.green_map_hover {width:82px; height:51px; background-position: -83px -106px}
+.green_overlay {width:141px; height:141px; background-position: -288px -977px}
+.green_purple {width:79px; height:53px; background-position: -83px -160px}
+.green_purple:hover {width:79px; height:53px; background-position: -164px -160px}
+.green_purple_hover {width:79px; height:53px; background-position: -164px -160px}
+.green_yellow {width:79px; height:48px; background-position: -83px -52px}
+.green_yellow:hover {width:79px; height:48px; background-position: -164px -2px}
+.green_yellow_hover {width:79px; height:48px; background-position: -164px -2px}
+.map_blue {width:79px; height:52px; background-position: -245px -52px}
+.map_blue:hover {width:79px; height:52px; background-position: -407px -52px}
+.map_blue_hover {width:79px; height:52px; background-position: -407px -52px}
+.map_green {width:79px; height:48px; background-position: -2px -2px}
+.map_green:hover {width:79px; height:48px; background-position: -245px -2px}
+.map_green_hover {width:79px; height:48px; background-position: -245px -2px}
+.map_map {width:82px; height:51px; background-position: -83px -106px}
+.map_purple {width:79px; height:53px; background-position: -2px -160px}
+.map_purple:hover {width:79px; height:53px; background-position: -164px -160px}
+.map_purple_hover {width:79px; height:53px; background-position: -164px -160px}
+.map_yellow {width:79px; height:48px; background-position: -407px -2px}
+.map_yellow:hover {width:79px; height:48px; background-position: -164px -2px}
+.map_yellow_hover {width:79px; height:48px; background-position: -164px -2px}
+.purple_arrow1 {width:100px; height:64px; background-position: -206px -530px}
+.purple_arrow2 {width:100px; height:64px; background-position: -2px -530px}
+.purple_arrow3 {width:150px; height:96px; background-position: -147px -736px}
+.purple_arrow4 {width:125px; height:80px; background-position: -2px -612px}
+.purple_benefits_x {width:72px; height:72px; background-position: -2px -234px}
+.purple_blue {width:79px; height:52px; background-position: -164px -52px}
+.purple_blue:hover {width:79px; height:52px; background-position: -407px -52px}
+.purple_blue_hover {width:79px; height:52px; background-position: -407px -52px}
+.purple_dot1 {width:72px; height:72px; background-position: -76px -234px}
+.purple_dot2 {width:72px; height:72px; background-position: -372px -234px}
+.purple_dot3 {width:72px; height:72px; background-position: -150px -234px}
+.purple_dot4 {width:72px; height:72px; background-position: -298px -308px}
+.purple_dot5 {width:72px; height:72px; background-position: -224px -308px}
+.purple_green {width:79px; height:48px; background-position: -83px -2px}
+.purple_green:hover {width:79px; height:48px; background-position: -245px -2px}
+.purple_green_hover {width:79px; height:48px; background-position: -245px -2px}
+.purple_map {width:82px; height:51px; background-position: -251px -106px}
+.purple_map:hover {width:82px; height:51px; background-position: -83px -106px}
+.purple_map_hover {width:82px; height:51px; background-position: -83px -106px}
+.purple_overlay {width:141px; height:141px; background-position: -145px -977px}
+.purple_purple {width:79px; height:53px; background-position: -164px -160px}
+.purple_yellow {width:79px; height:48px; background-position: -326px -2px}
+.purple_yellow:hover {width:79px; height:48px; background-position: -164px -2px}
+.purple_yellow_hover {width:79px; height:48px; background-position: -164px -2px}
+.yellow_arrow1 {width:150px; height:96px; background-position: -299px -736px}
+.yellow_arrow2 {width:125px; height:80px; background-position: -308px -530px}
+.yellow_arrow3 {width:150px; height:96px; background-position: -2px -834px}
+.yellow_arrow4 {width:100px; height:64px; background-position: -206px -530px}
+.yellow_arrow5 {width:150px; height:96px; background-position: -2px -834px}
+.yellow_benefits_x {width:72px; height:72px; background-position: -150px -308px}
+.yellow_blue {width:79px; height:52px; background-position: -326px -52px}
+.yellow_blue:hover {width:79px; height:52px; background-position: -407px -52px}
+.yellow_blue_hover {width:79px; height:52px; background-position: -407px -52px}
+.yellow_dot1 {width:72px; height:72px; background-position: -224px -234px}
+.yellow_dot2 {width:72px; height:72px; background-position: -298px -234px}
+.yellow_dot3 {width:72px; height:72px; background-position: -2px -308px}
+.yellow_dot4 {width:72px; height:72px; background-position: -76px -308px}
+.yellow_dot5 {width:72px; height:72px; background-position: -326px -160px}
+.yellow_dot6 {width:72px; height:72px; background-position: -400px -160px}
+.yellow_green {width:79px; height:48px; background-position: -2px -52px}
+.yellow_green:hover {width:79px; height:48px; background-position: -245px -2px}
+.yellow_green_hover {width:79px; height:48px; background-position: -245px -2px}
+.yellow_map {width:82px; height:51px; background-position: -335px -106px}
+.yellow_map:hover {width:82px; height:51px; background-position: -83px -106px}
+.yellow_map_hover {width:82px; height:51px; background-position: -83px -106px}
+.yellow_overlay {width:141px; height:141px; background-position: -306px -834px}
+.yellow_purple {width:79px; height:53px; background-position: -245px -160px}
+.yellow_purple:hover {width:79px; height:53px; background-position: -164px -160px}
+.yellow_purple_hover {width:79px; height:53px; background-position: -164px -160px}
+.yellow_yellow {width:79px; height:48px; background-position: -164px -2px}

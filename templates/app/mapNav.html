@@ -1,0 +1,7 @@
+<% _.each(collection.models, function(city){ %>
+    <a href="javascript:void(0);" class="<%=city.get('color')%>">
+        <span class="title"><%=city.get('case_study')%><br />case study:</span>
+        <%=city.get('title')%>
+        <span class="sprite <%=city.get('color')%>_overlay"></span>
+    </a>
+<% }); %>

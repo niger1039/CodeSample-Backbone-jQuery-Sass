@@ -1,0 +1,11 @@
+#home {
+    background: no-repeat url('../img/home/bg.jpg');
+
+    .content {
+        button {
+            border:none;
+            background: no-repeat url('../img/btns/home-explore.png'); 
+            &:hover {background: no-repeat url('../img/btns/home-explore-hover.png'); }
+        }
+    }
+}

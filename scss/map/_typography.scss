@@ -1,0 +1,15 @@
+#map > nav a {
+	font-family: "Helvetica Neue";
+	font-weight: bold /*normal*/;
+	text-align: center;
+	font-size: 12px;
+	line-height: 16px;
+	color: $light_color;
+	
+	.title {
+		color: #000;
+		font-size: 13px;
+		line-height: 14px;
+		font-weight: bold;
+	}
+}

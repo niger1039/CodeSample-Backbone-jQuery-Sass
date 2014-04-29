@@ -1,0 +1,242 @@
+.steps > li article {
+  width: 265px;
+  height: 197px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  transition: none;
+}
+
+.steps li article, .steps li article a, .steps li article .more {
+	color: #FFF;
+}
+
+
+
+.city.green .steps li.s1 article {
+  margin-top: 36px;
+  margin-left: -317px;
+}
+.city.green .steps li.s2 article {
+  margin-top: 36px;
+  margin-left: -317px;
+}
+.city.green .steps li.s3 article {
+  margin-top: -211px;
+  margin-left: 36px;
+}
+.city.green .steps li.s4 article {
+  margin-top: -211px;
+  margin-left: 36px;
+}
+.city.green .steps li.s5 article {
+  margin-top: 36px;
+  margin-left: 36px;
+}
+.city.blue .steps li.s2 article {
+  margin-top: 36px;
+  margin-left: -317px;
+}
+.city.blue .steps li.s3 article {
+  margin-top: -211px;
+  margin-left: -317px;
+}
+.city.blue .steps li.s4 article {
+  margin-top: -211px;
+  margin-left: 36px;
+}
+.city.blue .steps li.s5 article {
+  margin-top: -211px;
+  margin-left: 36px;
+}
+.city.blue .steps li.s6 article {
+  margin-top: 36px;
+  margin-left: 36px;
+}
+.city.purple .steps li.s1 article {
+  margin-top: 36px;
+  margin-left: -317px;
+}
+.city.purple .steps li.s2 article {
+  margin-top: 36px;
+  margin-left: -317px;
+}
+.city.purple .steps li.s3 article {
+  margin-top: 36px;
+  margin-left: -317px;
+}
+.city.purple .steps li.s4 article {
+  margin-top: 36px;
+  margin-left: -317px;
+}
+.city.purple .steps li.s5 article {
+  margin-top: 36px;
+  margin-left: 36px;
+}
+.city.yellow .steps li.s1 article {
+  margin-top: 36px;
+  margin-left: -317px;
+}
+.city.yellow .steps li.s2 article {
+  margin-top: 36px;
+  margin-left: -317px;
+}
+.city.yellow .steps li.s3 article {
+  margin-top: 36px;
+  margin-left: 36px;
+}
+.city.yellow .steps li.s4 article {
+  margin-top: -211px;
+  margin-left: 36px;
+}
+.city.yellow .steps li.s5 article {
+  margin-top: -211px;
+  margin-left: 36px;
+}
+.city.yellow .steps li.s6 article {
+  margin-top: 36px;
+  margin-left: 36px;
+}
+
+.steps li.benefits button {
+	padding-bottom: 4px;
+	line-height: 28px;
+}
+
+.intro button {
+	padding-bottom: 2px;
+	line-height: 36px;
+}
+
+
+#home .content button {
+	padding-bottom: 9px;
+	line-height: 27px;
+}
+
+#contact .content button {
+	padding-bottom: 3px;
+	line-height: 30px;
+}
+
+/* line 69, ../scss/_styles.scss */
+.city.active.green .steps .benefits button {
+  background: no-repeat url("../img/btns/green-benefits-btn-bg.png");
+}
+/* line 71, ../scss/_styles.scss */
+.city.active.green .steps .benefits button:hover {
+  background: no-repeat url("../img/btns/hover-benefits-btn-bg.png");
+}
+/* line 74, ../scss/_styles.scss */
+.city.active.green .intro button {
+  background: no-repeat url("../img/btns/green-intro-btn-bg.png");
+}
+/* line 76, ../scss/_styles.scss */
+.city.active.green .intro button:hover {
+  background: no-repeat url("../img/btns/hover-intro-btn-bg.png");
+}
+/* line 78, ../scss/_styles.scss */
+.city.active.green .content nav li {
+  background: no-repeat url("../img/btns/green-nav-btn-bg.png");
+}
+/* line 80, ../scss/_styles.scss */
+.city.active.green .content nav li.benefits {
+  background: no-repeat url("../img/btns/green-nav-benefits-bg.png");
+}
+/* line 85, ../scss/_styles.scss */
+.city.active.blue .steps .benefits button {
+  background: no-repeat url("../img/btns/blue-benefits-btn-bg.png");
+}
+/* line 87, ../scss/_styles.scss */
+.city.active.blue .steps .benefits button:hover {
+  background: no-repeat url("../img/btns/hover-benefits-btn-bg.png");
+}
+/* line 90, ../scss/_styles.scss */
+.city.active.blue .intro button {
+  background: no-repeat url("../img/btns/blue-intro-btn-bg.png");
+}
+/* line 92, ../scss/_styles.scss */
+.city.active.blue .intro button:hover {
+  background: no-repeat url("../img/btns/hover-intro-btn-bg.png");
+}
+/* line 94, ../scss/_styles.scss */
+.city.active.blue .content nav li {
+  background: no-repeat url("../img/btns/blue-nav-btn-bg.png");
+}
+/* line 96, ../scss/_styles.scss */
+.city.active.blue .content nav li.benefits {
+  background: no-repeat url("../img/btns/blue-nav-benefits-bg.png");
+}
+/* line 101, ../scss/_styles.scss */
+.city.active.purple .steps .benefits button {
+  background: no-repeat url("../img/btns/purple-benefits-btn-bg.png");
+}
+/* line 103, ../scss/_styles.scss */
+.city.active.purple .steps .benefits button:hover {
+  background: no-repeat url("../img/btns/hover-benefits-btn-bg.png");
+}
+/* line 106, ../scss/_styles.scss */
+.city.active.purple .intro button {
+  background: no-repeat url("../img/btns/purple-intro-btn-bg.png");
+}
+/* line 108, ../scss/_styles.scss */
+.city.active.purple .intro button:hover {
+  background: no-repeat url("../img/btns/hover-intro-btn-bg.png");
+}
+/* line 110, ../scss/_styles.scss */
+.city.active.purple .content nav li {
+  background: no-repeat url("../img/btns/purple-nav-btn-bg.png");
+}
+/* line 112, ../scss/_styles.scss */
+.city.active.purple .content nav li.benefits {
+  background: no-repeat url("../img/btns/purple-nav-benefits-bg.png");
+}
+/* line 117, ../scss/_styles.scss */
+.city.active.yellow .steps .steps .benefits button {
+  background: no-repeat url("../img/btns/yellow-benefits-btn-bg.png");
+}
+/* line 119, ../scss/_styles.scss */
+.city.active.yellow .steps .steps .benefits button:hover {
+  background: no-repeat url("../img/btns/hover-benefits-btn-bg.png");
+}
+/* line 122, ../scss/_styles.scss */
+.city.active.yellow .intro button {
+  background: no-repeat url("../img/btns/yellow-intro-btn-bg.png");
+}
+/* line 124, ../scss/_styles.scss */
+.city.active.yellow .intro button:hover {
+  background: no-repeat url("../img/btns/hover-intro-btn-bg.png");
+}
+/* line 126, ../scss/_styles.scss */
+.city.active.yellow .content nav li {
+  background: no-repeat url("../img/btns/yellow-nav-btn-bg.png");
+}
+/* line 128, ../scss/_styles.scss */
+.city.active.yellow .content nav li.benefits {
+  background: no-repeat url("../img/btns/yellow-nav-benefits-bg.png");
+}
+/* line 135, ../scss/_styles.scss */
+.city.active.green .content nav li.active, .city.active.green .content nav li:hover, .city.active.blue .content nav li.active, .city.active.blue .content nav li:hover, .city.active.purple .content nav li.active, .city.active.purple .content nav li:hover, .city.active.yellow .content nav li.active, .city.active.yellow .content nav li:hover {
+  background: no-repeat url("../img/btns/hover-nav-btn-bg.png");
+}
+/* line 137, ../scss/_styles.scss */
+.city.active.green .content nav li.active.benefits, .city.active.green .content nav li:hover.benefits, .city.active.blue .content nav li.active.benefits, .city.active.blue .content nav li:hover.benefits, .city.active.purple .content nav li.active.benefits, .city.active.purple .content nav li:hover.benefits, .city.active.yellow .content nav li.active.benefits, .city.active.yellow .content nav li:hover.benefits {
+  background: no-repeat url("../img/btns/hover-nav-benefits-bg.png");
+}
+/* line 251, ../scss/_styles.scss */
+#contact .content button {
+  border: none;
+  background: no-repeat url("../img/btns/contact-explore.png");
+}
+/* line 254, ../scss/_styles.scss */
+#contact .content button:hover {
+  background: no-repeat url("../img/btns/contact-explore-hover.png");
+}
+/* line 263, ../scss/_styles.scss */
+#home .content button {
+  border: none;
+  background: no-repeat url("../img/btns/home-explore.png");
+}
+/* line 266, ../scss/_styles.scss */
+#home .content button:hover {
+  background: no-repeat url("../img/btns/home-explore-hover.png");
+}

@@ -1,0 +1,68 @@
+#app {
+	width: $app_width;
+	height: $app_height;
+	margin: 0 auto;
+	position: relative;
+	overflow: hidden;
+}
+
+header {
+    @include absolute-box ($app_width, 32px);
+    top: 0;
+    left: 0;
+    z-index: $z_header;
+
+    ul {
+        margin: 12px 0 0 19px;
+        li { display: inline-block; }
+    }
+    h1 {
+        position: absolute;
+        right: 30px;
+        top: 4px;
+        padding-right: 50px;
+    }
+}
+
+footer {
+    @include absolute-box ($app_width, 122px);
+    bottom: 0;
+    z-index: $z_footer;
+
+    ul { height: 122px; }
+    li {
+        width: 168px;
+        height: 122px;
+        display:block;
+        float: left;
+        margin: 0;
+        padding: 0;
+        a {
+            display: block;
+            width: 100%;
+            height: 122px;
+            padding-top: 29px;
+        }
+        &.prev, &.next {
+            width: 92px;
+            a { padding-top: 100px; position: relative; }
+            .sprite {
+                position: absolute;
+                top: 0;
+                left: 0;
+                z-index: -1;
+            }
+        }
+        &.icon {
+            height: 106px;
+            span.sprite {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+#backgrounds, #backgrounds li {
+	@include absolute-box-fs-z ($z_backgrounds);
+}

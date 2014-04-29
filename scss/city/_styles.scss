@@ -1,0 +1,117 @@
+.city {
+    @include transition(opacity 2s ease-out);
+
+    &.active {
+        &.green {
+            button,
+            nav li { background: $city_green; }
+        }
+        &.blue {
+            button,
+            nav li { background: $city_blue; }
+        }
+        &.purple {
+            button,
+            nav li { background: $city_purple; }
+        }
+        &.yellow {
+            button,
+            nav li { background: $city_yellow; }
+        }
+
+        &.green, &.blue, &.purple, &.yellow {
+            nav li.active, 
+            nav li:hover,
+            .intro button:hover { background: #221E1F; }
+            .benefits button:hover { background: #777; }
+        }
+    }
+
+    &.inactive {
+        .background {
+            @include transparent;
+        }
+    }
+    .background {
+        @include transition(all 0.5s ease-out);
+        @include opaque;
+    }
+    nav li {@include rounded(1.5em);}
+}
+
+.steps {
+    @include transition(all 0.5s ease-out);
+    @include transparent;
+    &.active {
+        @include opaque;
+    }
+    > li {
+        @include transition(width 0.5s ease-out, height 0.5s ease-out, top 0.5s ease-out, left 0.5s ease-out);
+
+        &.active {
+            img.arrow {
+                @include opaque;
+            }
+            &.benefits {
+                article {
+                    a {
+                        img {
+                            @include opaque;
+                        }
+                    }
+                }
+            }
+        }
+
+        > a {
+            @include transition(all 0.5s ease-out);
+            background-repeat: no-repeat;
+            background-position: center center;
+            @include background-size(100% 100%);
+        }
+        article {
+            @include transition(width 0.5s ease-out,height 0.5s ease-out,top, margin 0.5s ease-out, padding 0.5s ease-out);
+            background: no-repeat url('../img/map/content_boxes/step_bg.png');
+            @include background-size(100% 100%);
+        }
+        img.arrow {
+            @include transition(all 0.5s ease-out);
+            @include transparent;	
+        }
+        &.benefits {
+            @include transition(all 0.5s ease-out);
+            article {
+                @include transition(all 0.5s ease-out);
+                background: url('../img/map/content_boxes/benefits_bg.png') no-repeat;
+                @include background-size(100% 100%);
+                a {
+                    img {
+                        @include transition(all 0.5s ease-out);
+                        @include transparent;
+                    }
+                }
+                button {
+                    @include rounded(1.5em);
+                    border:none;
+                    color:#fff;
+                }
+            }
+        }
+    }
+}
+
+.intro {
+    @include transition(all 0.5s ease-out);
+    @include transparent;
+
+    background: left top no-repeat url('../img/map/content_boxes/intro.png');
+
+    &.active {
+        @include opaque;
+    }
+
+    button {
+        @include rounded(1.5em);
+        border:none;
+    }
+}

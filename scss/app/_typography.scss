@@ -1,0 +1,25 @@
+#app {
+	header {
+		li, li a {
+			font-family: "Helvetica Neue";
+			font-weight: bold;
+			font-size: 11px;
+			color: $light_color;
+		}
+		h1 {
+			font-family: "Lubalin Book";
+			font-size: 13px;
+			color: $light_color;
+			font-weight: normal;
+		}
+	}
+	footer {
+		a {
+			font-family: "Helvetica Neue";
+			font-size: 10px;
+			text-align: center;
+			color: $light_color;
+			font-weight: bold;
+		}
+	}
+}

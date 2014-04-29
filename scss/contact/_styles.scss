@@ -1,0 +1,17 @@
+#contact {
+    background: no-repeat url('../img/contact/bg.jpg');
+    @include transition(opacity 0.5s ease-out);
+    @include opaque;
+
+    .inactive {
+        @include transparent;
+    }
+
+    .content {
+        button {
+            border:none;
+            background: no-repeat url('../img/btns/contact-explore.png'); 
+            &:hover {background: no-repeat url('../img/btns/contact-explore-hover.png'); }
+        }
+    }
+}

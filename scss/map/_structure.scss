@@ -1,0 +1,37 @@
+#map {
+	@include absolute-box-fs;
+	> nav {
+		@include absolute-box-fs-z ($z_map_nav);
+		a {
+			@include absolute-box (101px, 141px);
+            padding: 0 20px;
+			
+			&.green {
+				top: 140px;
+				left: 440px;
+			}
+			&.blue {
+				top: 261px;
+				left: 653.2px;
+			}
+			&.purple {
+				top: 389px;
+				left: 439px;
+			}
+			&.yellow {
+				top: 261px;
+				left: 228px;
+			}
+		}
+        .title {
+            display: block;
+            margin: 34px 8px 8px;
+        }
+        .sprite {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+	}
+}

@@ -1,0 +1,41 @@
+$base-font-size : 18px;
+$base-line-height : 24px;
+@include establish-baseline;
+
+@include font-face("Helvetica Neue", font-files("Helv/HelvNeuefor.woff", woff, "Helv/HelvNeuefor.ttf", truetype, "Helv/HelvNeuefor.svg", svg), "Helv/HelvNeuefor.eot", normal, normal);
+@include font-face("Helvetica Neue", font-files("Helv/HelvNeuefor-Bold.woff", woff, "Helv/HelvNeuefor-Bold.ttf", truetype, "Helv/HelvNeuefor-Bold.svg", svg), "Helv/HelvNeuefor-Bold.eot", bold, normal);
+@include font-face("Helvetica Neue", font-files("Helv/HelvNeuefor-BoldItalic.woff", woff, "Helv/HelvNeuefor-BoldItalic.ttf", truetype, "Helv/HelvNeuefor-BoldItalic.svg", svg), "Helv/HelvNeuefor-BoldItalic.eot", bold, italic);
+@include font-face("Helvetica Neue", font-files("Helv/HelvNeuefor-Italic.woff", woff, "Helv/HelvNeuefor-Italic.ttf", truetype, "Helv/HelvNeuefor-Italic.svg", svg), "Helv/HelvNeuefor-Italic.eot", normal, italic);
+
+@include font-face("Helvetica Neue", font-files("Helv/HelvNeuefor-Light.woff", woff, "Helv/HelvNeuefor-Light.ttf", truetype, "Helv/HelvNeuefor-Light.svg", svg), "Helv/HelvNeuefor-Light.eot", 200, normal);
+@include font-face("Helvetica Neue", font-files("Helv/HelvNeuefor-LightItalic.woff", woff, "Helv/HelvNeuefor-LightItalic.ttf", truetype, "Helv/HelvNeuefor-LightItalic.svg", svg), "Helv/HelvNeuefor-LightItalic.eot", 200, italic);
+
+@include font-face("Helvetica Neue", font-files("Helv/HelvNeuefor-Medium.woff", woff, "Helv/HelvNeuefor-Medium.ttf", truetype, "Helv/HelvNeuefor-Medium.svg", svg), "Helv/HelvNeuefor-Medium.eot", 600, normal);
+@include font-face("Helvetica Neue", font-files("Helv/HelvNeuefor-MediumItalic.woff", woff, "Helv/HelvNeuefor-MediumItalic.ttf", truetype, "Helv/HelvNeuefor-MediumItalic.svg", svg), "Helv/HelvNeuefor-MediumItalic.eot", 600, italic);
+
+@include font-face("Helvetica Neue Cond", font-files("Helv/HelvNeuefor-Cond.woff", woff, "Helv/HelvNeuefor-Cond.ttf", truetype, "Helv/HelvNeuefor-Cond.svg", svg), "Helv/HelvNeuefor-Cond.eot", normal, normal);
+@include font-face("Helvetica Neue Cond", font-files("Helv/HelvNeuefor-LightCond.woff", woff, "Helv/HelvNeuefor-LightCond.ttf", truetype, "Helv/HelvNeuefor-LightCond.svg", svg), "Helv/HelvNeuefor-LightCond.eot", 200, normal);
+
+
+@include font-face("Lubalin", font-files("Lubalin/Lubalinfor-ExtraLight.woff", woff, "Lubalin/Lubalinfor-ExtraLight.ttf", truetype, "Lubalin/Lubalinfor-ExtraLight.svg", svg), "Lubalin/Lubalinfor-ExtraLight.eot", normal, normal);
+@include font-face("Lubalin", font-files("Lubalin/Lubalinfor-ExLightItalic.woff", woff, "Lubalin/Lubalinfor-ExLightItalic.ttf", truetype, "Lubalin/Lubalinfor-ExLightItalic.svg", svg), "Lubalin/Lubalinfor-ExLightItalic.eot", normal, italic);
+
+@include font-face("Lubalin Book", font-files("Lubalin/Lubalinfor-Book.woff", woff, "Lubalin/Lubalinfor-Book.ttf", truetype, "Lubalin/Lubalinfor-Book.svg", svg), "Lubalin/Lubalinfor-Book.eot", normal, normal);
+@include font-face("Lubalin Book", font-files("Lubalin/Lubalinfor-BookItalic.woff", woff, "Lubalin/Lubalinfor-BookItalic.ttf", truetype, "Lubalin/Lubalinfor-BookItalic.svg", svg), "Lubalin/Lubalinfor-BookItalic.eot", normal, italic);
+
+@include font-face("Lubalin Demi", font-files("Lubalin/Lubalinfor-Demi.woff", woff, "Lubalin/Lubalinfor-Demi.ttf", truetype, "Lubalin/Lubalinfor-Demi.svg", svg), "Lubalin/Lubalinfor-Demi.eot", normal, normal);
+@include font-face("Lubalin Demi", font-files("Lubalin/Lubalinfor-DemiItalic.woff", woff, "Lubalin/Lubalinfor-DemiItalic.ttf", truetype, "Lubalin/Lubalinfor-DemiItalic.svg", svg), "Lubalin/Lubalinfor-DemiItalic.eot", normal, italic);
+
+
+html {
+	font-family: 'Helvetica Neue';
+	color: #333333;
+	
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+a {
+	color: #808080;
+	text-decoration: none;
+}

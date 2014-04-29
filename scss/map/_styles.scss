@@ -1,0 +1,7 @@
+#map > nav a {
+    @include transition(opacity 0.5s ease-out);
+    @include transparent;
+}
+#app.map #map > nav a {
+    @include opaque;
+}
