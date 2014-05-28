@@ -1,8 +1,7 @@
 define([
-    'underscore',
     'backbone',
     'models/Step'
-], function(_, Backbone, Step){
+], function(Backbone, Step){
     'use strict';
 
     var Steps = Backbone.Collection.extend({

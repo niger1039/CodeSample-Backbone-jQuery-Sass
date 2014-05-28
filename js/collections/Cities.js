@@ -1,8 +1,7 @@
 define([
-    'underscore',
     'backbone',
     'models/City'
-], function(_, Backbone, City){
+], function(Backbone, City){
     'use strict';
 
     var Cities = Backbone.Collection.extend({

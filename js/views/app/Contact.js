@@ -1,9 +1,8 @@
 define([
-    'jquery',
     'underscore',
     'backbone',
     'text!templates/app/contact.html'
-], function($, _, Backbone, contactTemplate){
+], function(_, Backbone, contactTemplate){
     'use strict';
     
     var ContactView = Backbone.View.extend({

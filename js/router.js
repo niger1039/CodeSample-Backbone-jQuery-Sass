@@ -1,11 +1,8 @@
 define([
-    'jquery',
-    'underscore',
     'backbone',
     'views/home/Home',
     'views/app/App'
-], function($, _, Backbone, HomeView, AppView) {
-  
+], function(Backbone, HomeView, AppView) {
     'use strict';
     
     var AppRouter = Backbone.Router.extend({
@@ -26,7 +23,7 @@ define([
             new AppView();
         });
 
-        app_router.on('route:defaultAction', function (actions) {
+        app_router.on('route:defaultAction', function () {
             // Initialize HomeView (it'll be rendered in the initialize)
             new HomeView();
         });

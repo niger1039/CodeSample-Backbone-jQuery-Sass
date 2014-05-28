@@ -1,9 +1,8 @@
 define([
-    'jquery',
     'underscore',
     'views/TransitionHandler',
     'text!templates/app/map/city/step.html'
-], function($, _, TransitionHandlerView, stepTemplate){
+], function(_, TransitionHandlerView, stepTemplate){
     'use strict';
     
     var StepView = TransitionHandlerView.extend({

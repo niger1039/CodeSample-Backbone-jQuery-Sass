@@ -66,7 +66,7 @@ define([
             this.appView.mapView.showNextCity();
         },
         
-        showFor: function(cityColor, forContact)
+        showFor: function(cityColor)
         {
             this.icons
                     .removeClass('active')

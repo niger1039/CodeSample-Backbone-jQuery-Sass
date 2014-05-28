@@ -1,11 +1,10 @@
 define([
-    'jquery',
     'underscore',
     'views/TransitionHandler',
     'views/app/map/city/Step',
     'collections/Steps',
     'text!templates/app/map/city/stepsList.html'
-], function($, _, TransitionHandlerView, StepView, Steps, stepsListTemplate){
+], function(_, TransitionHandlerView, StepView, Steps, stepsListTemplate){
     'use strict';
     
     var StepListView = TransitionHandlerView.extend({

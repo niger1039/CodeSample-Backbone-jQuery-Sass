@@ -1,9 +1,8 @@
 define([
-    'jquery',
     'underscore',
     'backbone',
     'text!templates/app/mapNav.html'
-], function($, _, Backbone, mapNavTemplate){
+], function(_, Backbone, mapNavTemplate){
     'use strict';
     
     var MapNavView = Backbone.View.extend({
