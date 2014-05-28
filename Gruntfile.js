@@ -36,12 +36,12 @@ module.exports = function(grunt) {
         browser:    true,
         multistr:   true,
         newcap:     false,
+        unused:     true,
+        undef:      true,
         globals: {
             define:       true,
             require:      true,
-            Modernizr:    true,
-            
-            console:      true
+            Modernizr:    true
         }
       }
     },
