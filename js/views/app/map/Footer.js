@@ -4,6 +4,7 @@ define([
     'backbone',
     'text!templates/app/map/footer.html'
 ], function($, _, Backbone, footerTemplate){
+    'use strict';
     
     var FooterView = Backbone.View.extend({
         

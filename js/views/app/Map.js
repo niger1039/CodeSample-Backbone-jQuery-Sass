@@ -7,6 +7,7 @@ define([
     'views/app/map/Footer',
     'text!templates/app/map.html'
 ], function($, _, TransitionHandlerView, CityView, MapNavView, FooterView, mapTemplate){
+    'use strict';
     
     var MapView = TransitionHandlerView.extend({
         

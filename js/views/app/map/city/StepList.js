@@ -6,6 +6,7 @@ define([
     'collections/Steps',
     'text!templates/app/map/city/stepsList.html'
 ], function($, _, TransitionHandlerView, StepView, Steps, stepsListTemplate){
+    'use strict';
     
     var StepListView = TransitionHandlerView.extend({
         

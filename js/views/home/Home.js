@@ -4,6 +4,7 @@ define([
     'backbone',
     'text!templates/home/home.html'
 ], function($, _, Backbone, homeTemplate) {
+    'use strict';
 
     var HomeView = Backbone.View.extend({
         

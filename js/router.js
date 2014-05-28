@@ -6,6 +6,8 @@ define([
     'views/app/App'
 ], function($, _, Backbone, HomeView, AppView) {
   
+    'use strict';
+    
     var AppRouter = Backbone.Router.extend({
         
         routes: {

@@ -4,6 +4,7 @@ define([
     'backbone',
     'text!templates/app/contact.html'
 ], function($, _, Backbone, contactTemplate){
+    'use strict';
     
     var ContactView = Backbone.View.extend({
         

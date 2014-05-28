@@ -2,6 +2,7 @@ define([
     'underscore',
     'backbone'
 ], function(_, Backbone) {
+    'use strict';
     
     var City = Backbone.Model.extend({
         DISPLAY_OPEN: 'opened',

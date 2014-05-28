@@ -3,6 +3,7 @@ define([
     'backbone',
     'models/City'
 ], function(_, Backbone, City){
+    'use strict';
 
     var Cities = Backbone.Collection.extend({
       

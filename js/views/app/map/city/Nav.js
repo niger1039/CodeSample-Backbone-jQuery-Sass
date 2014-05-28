@@ -4,6 +4,7 @@ define([
     'backbone',
     'text!templates/app/map/city/cityNav.html'
 ], function($, _, Backbone, cityNavTemplate){
+    'use strict';
     
     var StepsNavView = Backbone.View.extend({
         

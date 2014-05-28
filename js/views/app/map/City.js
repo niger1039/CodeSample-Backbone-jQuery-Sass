@@ -7,6 +7,7 @@ define([
     'models/Intro',
     'text!templates/app/map/city.html'
 ], function($, _, TransitionHandlerView, StepListView, CityNavView, Intro, cityTemplate){
+    'use strict';
     
     var CityView = TransitionHandlerView.extend({
         

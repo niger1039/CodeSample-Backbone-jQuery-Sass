@@ -7,6 +7,7 @@ define([
     'collections/Cities',
     'text!templates/app/app.html'
 ], function($, _, Backbone, MapView, ContactView, Cities, appTemplate){
+    'use strict';
     
     var AppView = Backbone.View.extend({
         

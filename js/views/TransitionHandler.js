@@ -23,6 +23,7 @@ define([
     'backbone',
     'modernizr' //modernizr is not yet ready for AMD, so I'll use the global variable :(
 ], function($, _, Backbone){
+    'use strict';
 
     var TransitionHandlerView = Backbone.View.extend({
         
