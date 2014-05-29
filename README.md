@@ -6,6 +6,8 @@ All the transitions are made with CSS3 and there are JS triggers that detect the
 
 The browser requiremnts were IE9+, FF 17+ and Chrome 20+.
 
+**To see this project live**, please click here: http://agustinvijoditz.com/code-samples/cst
+
 #####Open Source libraries and languages used in this example:
 * HTML
 * CSS3 coded with
